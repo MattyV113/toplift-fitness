@@ -169,7 +169,7 @@ body {
   width: 40%;
   justify-content: center;
   transition: 0.3s;
-  margin-left: 2rem;
+  margin-left: 1rem;
   margin-bottom: 2rem;
   color: aliceblue;
   border-radius: 6px;
@@ -178,7 +178,8 @@ body {
 
 @media only screen and (max-width: 600px) {
   .profile-card button {
-    width: 100%;
+    width: 80%;
+    
   }
 }
 
