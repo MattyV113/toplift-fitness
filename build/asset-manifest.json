@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.57a0769c.css",
+    "main.js": "/static/js/main.4ec6df8a.js",
+    "static/media/signup.png": "/static/media/signup.0377c8d5f549a0a4b513.png",
+    "static/media/TopLift-main.png": "/static/media/TopLift-main.7a83187d9c80a8cc41b3.png",
+    "index.html": "/index.html",
+    "main.57a0769c.css.map": "/static/css/main.57a0769c.css.map",
+    "main.4ec6df8a.js.map": "/static/js/main.4ec6df8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.57a0769c.css",
+    "static/js/main.4ec6df8a.js"
+  ]
+}
