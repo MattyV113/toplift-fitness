@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@500&display=swap');
+
+
+
+
+ * {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue', cursive;
+    font-family: 'Open Sans', sans-serif;
+    min-height: 100vh;
+  }
+
+
+.exercise-container {
+    max-width: 1200px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-height: 400vh;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.exercise-form {
+    max-width: 800px;
+    width: 45%;
+    margin: 8rem auto;
+    max-height: 100vh;   
+    position: sticky;
+    color: black;
+    display: flex;
+    border: black  3px solid;
+    padding: 2rem;
+    border-radius: 5%;
+    
+}
+
+.exercise-form input {
+    max-width: 100%;
+    height: auto;
+    border: 6px solid black;
+}
+
+
+
+.workout-container h1 {
+    color: black;
+    text-align: center;
+}
+
+
+
+.workout-item {
+    float: right;
+    margin: 0.5rem;
+    font-size: 1.5rem;
+    color: black;
+    border: 3px solid black;
+    padding: 1rem ;
+    width: 320px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    transition: all 1s ease;
+  
+}
+
+@media only screen and (max-width: 864px) {
+    .workout-item {
+        float: none;
+    }
+
+   
+}
+
+@media only screen and (max-width: 600px) {
+    .exercise-form button {
+        width: 60%;
+    }
+}
+
+.workout-header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.workout-title {
+    display: inline-block;
+    margin-right: 8px;
+    color: black;
+}
+
+
+.delete-btn {
+    background-color: rgba(255, 25, 0, 0.959) ;
+    padding-bottom: 5px;
+    border: none;
+    transition: .2s;
+    width: 30px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.delete-btn:hover {
+    transition: .3s;
+    background-color: rgb(205, 12, 8);
+
+}
+
+.workout-display {
+    list-style: none;
+    width: 40%;
+    border-radius: 6px;
+     flex: 1;    
+     margin-bottom: 7px;
+}
+
+
+
+
+.exercise-form input, select  {
+    width: 100%;
+    border: 2px solid rgb(55, 54, 54);
+    border-radius: 4px;
+    line-height: 1;
+    text-indent: 2px;
+
+}
+
+
+.form-button {
+    border: 0;
+    width: 30%;
+    padding: 0.5rem;
+    display: inline-block;
+    color: whitesmoke;
+    background-color:rgb(55, 55, 54);
+    margin: 1rem 0;
+    transition: 0.4s;
+    border-radius: 8%;
+}
+
+.form-button:hover {
+   background-color: rgba(31, 184, 0, 0.959);
+   cursor: pointer;
+}
+
+ 
