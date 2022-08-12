@@ -151,7 +151,7 @@ body {
 }
 
 .profile-card {
-  width: 65%;
+  width: 75%;
   height: 50%;
   color:black;
   background-color: whitesmoke;
@@ -169,11 +169,17 @@ body {
   width: 40%;
   justify-content: center;
   transition: 0.3s;
-  margin-left: 17rem;
+  margin-left: 2rem;
   margin-bottom: 2rem;
   color: aliceblue;
   border-radius: 6px;
   background-color:rgba(7, 127, 255, 0.959) ;
+}
+
+@media only screen and (max-width: 600px) {
+  .profile-card button {
+    width: 100%;
+  }
 }
 
 .profile-card button:hover {
