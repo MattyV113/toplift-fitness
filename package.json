@@ -1,6 +1,5 @@
 {
   "name": "fittracker",
-  "homepage": "https://MattyV113.github.io/toplift-fitness",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
