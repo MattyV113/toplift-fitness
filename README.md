@@ -6,7 +6,7 @@ A Workout Tracker built using React.js, Bootstrap, and Firebase for authenticati
 https://toplift.netlify.app/signin
 
 # Sign-In Directions
-To Sign In, either create an account for yuorself, or use the default demo account provided below.
+To Sign In, either create an account for yourself, or use the default demo account provided below.
 
 username: demo@demo.com
 password: 123456
